@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors - Keshav kumar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Rock Paper Scissors Game</h1>
+
+    <div class="mainContainer">
+        <p>Choose Your move</p>
+
+        <div class="moves">
+            <div class="paper" onclick="Random('paper')">🖐🏻</div>
+            <div class="scissor" onclick="Random('scissors')">✌🏻</div>
+            <div class="rock" onclick="Random('rock')">👊🏻</div>
+        </div>
+
+        <p class="wl">Result: <span class="result">Awaiting result...</span></p>
+
+        <p>Your score: <span class="player">0</span> Computer score: <span class="computer">0</span></p>
+    </div>
+
+    <footer>
+        &copy; 2024 Your Company Name. All Rights Reserved.
+    </footer>
+
+   <script src="script.js"></script>
+</body>
+
+</html>
